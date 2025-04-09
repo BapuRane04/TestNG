@@ -1,0 +1,18 @@
+<suite name = "Sanity Test Suite">
+
+<test name = "Before And After Test">
+<classes>
+<class name = "com.dezlearn.test.DemoTest"/>
+</classes>
+</test>
+<test name = "Release 2019.5 Sanity Testing">
+<classes>
+<class name = "com.dezlearn.test.EBay_Sanity"/>
+<class name = "com.dezlearn.test.EBay_Advance_Search"/>
+<methods>
+<include name = "advanceSearch"></include>
+<include name = "backToHomePage"></include>
+</methods>
+</classes>
+</test>
+</suite>

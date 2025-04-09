@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test Suite]">
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.dezlearn.test.TitleVerification">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="browserClose"/>
+        </methods>
+      </class> <!-- com.dezlearn.test.TitleVerification -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->

@@ -1,0 +1,12 @@
+<suite name ="Regression Test Suite">
+<parameters>
+<parameter name ="browser" value ="Chrome"/>
+<parameter name = "exe" value = "\\src\\test\\resources\\driver\\chromedriver.exe"/>
+</parameters>
+<test name ="Regression">
+<classes>
+<class name = "com.dezlearn.test.TitleVerification"></class>
+<class name = "com.dezlearn.test.AddToCartProduct"></class>
+</classes>
+</test>
+</suite>
